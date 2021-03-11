@@ -1,0 +1,1 @@
+<img alt="User Image" src="{{asset('dist/img/logo chico.png')}}" style="height:35px;vertical-align: middle;"></img>

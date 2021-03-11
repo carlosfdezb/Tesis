@@ -1,0 +1,414 @@
+insert documentos pies
+
+INSERT INTO `documento_pies`(`id`, `descripcion`) VALUES ('1','Certificado de Nacimiento');
+INSERT INTO `documento_pies`(`id`, `descripcion`) VALUES ('2','Autorización de la Familia');
+INSERT INTO `documento_pies`(`id`, `descripcion`) VALUES ('3','Anamnesis');
+INSERT INTO `documento_pies`(`id`, `descripcion`) VALUES ('4','Informe Diagnóstico del Especialista');
+INSERT INTO `documento_pies`(`id`, `descripcion`) VALUES ('5','Protocolos de Pruebas');
+INSERT INTO `documento_pies`(`id`, `descripcion`) VALUES ('6','Vinneland Anual');
+INSERT INTO `documento_pies`(`id`, `descripcion`) VALUES ('7','F.Ú. Síntesis Evaluación de Ingreso o FUDEI');
+INSERT INTO `documento_pies`(`id`, `descripcion`) VALUES ('8','F.Ú. Síntesis de Revaluación');
+INSERT INTO `documento_pies`(`id`, `descripcion`) VALUES ('9','Formulario Valoración de Salud');
+INSERT INTO `documento_pies`(`id`, `descripcion`) VALUES ('10','Informe Psicopedagógico');
+INSERT INTO `documento_pies`(`id`, `descripcion`) VALUES ('11','Protocolo de Pruebas Psicopedagógicas');
+INSERT INTO `documento_pies`(`id`, `descripcion`) VALUES ('12','Informe Pedagógico');
+INSERT INTO `documento_pies`(`id`, `descripcion`) VALUES ('13','Evaluación Psicopedagógica y Curricular');
+INSERT INTO `documento_pies`(`id`, `descripcion`) VALUES ('14','Informe a la Familia');
+INSERT INTO `documento_pies`(`id`, `descripcion`) VALUES ('15','Interconsulta o Derivación Profesional');
+INSERT INTO `documento_pies`(`id`, `descripcion`) VALUES ('16','Documentos Adjuntos a Interconsultas');
+INSERT INTO `documento_pies`(`id`, `descripcion`) VALUES ('17','Otros Informes Complementarios');
+
+insert nees
+
+INSERT INTO `nees`(`id`, `abreviacion`, `descripcion`) VALUES ('1','TM','Trastorno Motor');
+INSERT INTO `nees`(`id`, `abreviacion`, `descripcion`) VALUES ('2','DI','Discapacidad Intelectual');
+INSERT INTO `nees`(`id`, `abreviacion`, `descripcion`) VALUES ('3','FIL','Funcionamiento Intelectual Limítrofe');
+INSERT INTO `nees`(`id`, `abreviacion`, `descripcion`) VALUES ('4','TEA','Transtorno del Espectro Autista');
+INSERT INTO `nees`(`id`, `abreviacion`, `descripcion`) VALUES ('5','DEA','Dificultad Específica del Aprendizaje');
+INSERT INTO `nees`(`id`, `abreviacion`, `descripcion`) VALUES ('6','TEL','Trastorno Específico del Lenguaje');
+INSERT INTO `nees`(`id`, `abreviacion`, `descripcion`) VALUES ('7','SD','Síndrome de Down');
+INSERT INTO `nees`(`id`, `abreviacion`, `descripcion`) VALUES ('8','Discapacidad Visual','Discapacidad Visual');
+INSERT INTO `nees`(`id`, `abreviacion`, `descripcion`) VALUES ('9','Discapacidad Auditiva','Discapacidad Auditiva');
+INSERT INTO `nees`(`id`, `abreviacion`, `descripcion`) VALUES ('10','Discapacidad Múltiple','Discapacidad Múltiple');
+INSERT INTO `nees`(`id`, `abreviacion`, `descripcion`) VALUES ('11','GARC','Graves Alteraciones en la Capacidad de Relación y Comunicación');
+INSERT INTO `nees`(`id`, `abreviacion`, `descripcion`) VALUES ('12','TOD','Trastorno Oposicionista Desafiante');
+INSERT INTO `nees`(`id`, `abreviacion`, `descripcion`) VALUES ('13','TDA','Trastorno de Déficit Atencional');
+INSERT INTO `nees`(`id`, `abreviacion`, `descripcion`) VALUES ('14','TDAH','Trastorno de Déficit Atencional con Hiperactividad');
+INSERT INTO `nees`(`id`, `abreviacion`, `descripcion`) VALUES ('15','RGD','Retraso Global del Desarrollo');
+
+
+
+insert cursos
+
+
+INSERT INTO `cursos`(`nivel`, `grado`, `letra`, `codigo`, `id_profesor`) VALUES ('Kinder','Pre-escolar','A','curso01','1');
+INSERT INTO `cursos`(`nivel`, `grado`, `letra`, `codigo`, `id_profesor`) VALUES ('Kinder','Pre-escolar','B','curso02','2');
+INSERT INTO `cursos`(`nivel`, `grado`, `letra`, `codigo`, `id_profesor`) VALUES ('1','Básico','A','curso03','3');
+INSERT INTO `cursos`(`nivel`, `grado`, `letra`, `codigo`, `id_profesor`) VALUES ('1','Básico','B','curso04','4');
+INSERT INTO `cursos`(`nivel`, `grado`, `letra`, `codigo`, `id_profesor`) VALUES ('2','Básico','A','curso05','5');
+INSERT INTO `cursos`(`nivel`, `grado`, `letra`, `codigo`, `id_profesor`) VALUES ('2','Básico','B','curso06','6');
+INSERT INTO `cursos`(`nivel`, `grado`, `letra`, `codigo`, `id_profesor`) VALUES ('3','Básico','A','curso07','7');
+INSERT INTO `cursos`(`nivel`, `grado`, `letra`, `codigo`, `id_profesor`) VALUES ('3','Básico','B','curso08','8');
+INSERT INTO `cursos`(`nivel`, `grado`, `letra`, `codigo`, `id_profesor`) VALUES ('4','Básico','A','curso09','9');
+INSERT INTO `cursos`(`nivel`, `grado`, `letra`, `codigo`, `id_profesor`) VALUES ('4','Básico','B','curso10','10');
+INSERT INTO `cursos`(`nivel`, `grado`, `letra`, `codigo`, `id_profesor`) VALUES ('5','Básico','A','curso11','11');
+INSERT INTO `cursos`(`nivel`, `grado`, `letra`, `codigo`, `id_profesor`) VALUES ('5','Básico','B','curso12','12');
+INSERT INTO `cursos`(`nivel`, `grado`, `letra`, `codigo`, `id_profesor`) VALUES ('6','Básico','A','curso13','16');
+INSERT INTO `cursos`(`nivel`, `grado`, `letra`, `codigo`, `id_profesor`) VALUES ('6','Básico','B','curso14','17');
+INSERT INTO `cursos`(`nivel`, `grado`, `letra`, `codigo`, `id_profesor`) VALUES ('7','Básico','A','curso15','18');
+INSERT INTO `cursos`(`nivel`, `grado`, `letra`, `codigo`, `id_profesor`) VALUES ('7','Básico','B','curso16','19');
+INSERT INTO `cursos`(`nivel`, `grado`, `letra`, `codigo`, `id_profesor`) VALUES ('8','Básico','A','curso17','20');
+INSERT INTO `cursos`(`nivel`, `grado`, `letra`, `codigo`, `id_profesor`) VALUES ('8','Básico','B','curso18','21');
+INSERT INTO `cursos`(`nivel`, `grado`, `letra`, `codigo`, `id_profesor`) VALUES ('1','Medio','A','curso19','22');
+INSERT INTO `cursos`(`nivel`, `grado`, `letra`, `codigo`, `id_profesor`) VALUES ('1','Medio','B','curso20','23');
+INSERT INTO `cursos`(`nivel`, `grado`, `letra`, `codigo`, `id_profesor`) VALUES ('2','Medio','A','curso21','24');
+INSERT INTO `cursos`(`nivel`, `grado`, `letra`, `codigo`, `id_profesor`) VALUES ('2','Medio','B','curso22','25');
+INSERT INTO `cursos`(`nivel`, `grado`, `letra`, `codigo`, `id_profesor`) VALUES ('3','Medio','A','curso23','26');
+INSERT INTO `cursos`(`nivel`, `grado`, `letra`, `codigo`, `id_profesor`) VALUES ('3','Medio','B','curso24','27');
+INSERT INTO `cursos`(`nivel`, `grado`, `letra`, `codigo`, `id_profesor`) VALUES ('4','Medio','A','curso25','28');
+INSERT INTO `cursos`(`nivel`, `grado`, `letra`, `codigo`, `id_profesor`) VALUES ('4','Medio','B','curso26','29');
+
+
+insert profesores
+
+INSERT INTO profesors (rut,primer_nombre,segundo_nombre,apellido_paterno,apellido_materno,correo,estado) VALUES ("35349391-4","Jair","Esmeralda","Hernández","Miranda","justo@semutdolor.co.uk","Activo"),("35728294-2","Rachel","Víctor","Lagos","Carvajal","consectetuer.ipsum.nunc@enimEtiamimperdiet.net","Activo"),("39039417-9","Eber","Rocio","Bustos","Tapia","Donec@fringillapurus.net","Activo"),("48585712-5","Jheremy","Naomi","Escobar","Miranda","ultricies.adipiscing@quam.net","Activo"),("34829848-8","Astrid","Jhonatan","Peña","Sanhueza","odio.sagittis@rutrumnonhendrerit.org","Activo"),("24308519-5","Samara","Williams","Saavedra","Pino","sit.amet.lorem@massarutrum.com","Activo"),("16703847-6","Agustina","Belen","Miranda","Gallardo","sociosqu@utnisia.com","Activo"),("11075693-3","Beatriz","Nathan","Vera","Campos","Proin.velit@Sednec.org","Activo"),("31337366-5","Maikol","Dyland","Vidal","San Martín","commodo@Integer.co.uk","Activo"),("15331229-K","Zamira","Dustin","Romero","Sandoval","sed.dui@rhoncusDonecest.co.uk","Activo"),("46611385-9","Victor","Harold","Muñoz","Jiménez","Fusce.mi@condimentumeget.com","Activo"),("27221497-2","Segundo","Emerson","Bravo","Cortés","rhoncus.Donec@Etiamligulatortor.ca","Activo"),("33535236-K","Lesly","Jonas","Silva","Toro","Morbi.sit.amet@dapibus.ca","Activo"),("9408570-5","Dania","Agustina","Maldonado","López","fringilla.purus@placeratorcilacus.org","Activo"),("21938697-4","Dailyn","Pascal","Martínez","Lagos","Mauris@nulla.org","Activo"),("21551676-8","Enzo","Alonzo","Aravena","López","malesuada.fames@vitaeposuere.edu","Activo"),("27842550-9","Benyamin","Vladimir","Bravo","Salinas","sem.eget@viverraDonec.co.uk","Activo"),("23575233-6","Teresa","Vaitiare","Guzmán","Vásquez","Nullam.ut@dictumaugue.org","Activo"),("46850316-6","Alejandra","Matthew","San Martín","Sánchez","aliquet.libero.Integer@ridiculusmus.ca","Activo"),("28801005-6","Humberto","Thiare","Bustamante","Núñez","magna@quisdiamPellentesque.net","Activo"),("33865733-1","Noel","Anays","Ruiz","Vera","neque@feugiatnon.ca","Activo"),("33236264-K","Anahís","Polette","Núñez","González","molestie@et.org","Activo"),("36871595-6","Amaru","Maylin","Campos","Sáez","enim@enimsit.ca","Activo"),("50852179-0","Owen","Andy","Molina","Vera","iaculis@massaSuspendisseeleifend.com","Activo"),("18544873-8","Richard","Eydan","Valenzuela","Fuentes","In.ornare.sagittis@consectetuer.com","Activo"),("46448446-9","Dulce","Antonela","Orellana","Zúñiga","mauris@lobortisaugue.org","Activo"),("19837651-5","Bryan","Patricia","Salinas","Carrasco","sollicitudin.commodo.ipsum@sedestNunc.net","Activo"),("6445295-9","Gerard","Kristel","Carvajal","Ramírez","Fusce.fermentum@leo.com","Activo"),("22466634-9","Lucca","Martin","Molina","Bustos","amet.dapibus@luctusvulputatenisi.ca","Activo"),("11265987-0","Mariangel","Dominique","Jiménez","Ortega","et.commodo@Aliquam.ca","Activo");
+
+insert curso_asignatura
+
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (3,1);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (3,2);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (3,3);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (3,4);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (3,5);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (3,6);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (3,7);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (3,8);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (3,9);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (3,10);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (3,11);
+
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (4,1);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (4,2);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (4,3);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (4,4);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (4,5);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (4,6);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (4,7);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (4,8);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (4,9);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (4,10);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (4,11);
+
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (5,1);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (5,2);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (5,3);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (5,4);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (5,5);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (5,6);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (5,7);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (5,8);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (5,9);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (5,10);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (5,11);
+
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (6,1);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (6,2);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (6,3);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (6,4);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (6,5);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (6,6);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (6,7);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (6,8);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (6,9);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (6,10);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (6,11);
+
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (7,1);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (7,2);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (7,3);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (7,4);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (7,5);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (7,6);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (7,7);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (7,8);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (7,9);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (7,10);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (7,11);
+
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (8,1);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (8,2);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (8,3);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (8,4);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (8,5);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (8,6);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (8,7);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (8,8);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (8,9);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (8,10);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (8,11);
+
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (9,1);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (9,2);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (9,3);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (9,4);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (9,5);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (9,6);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (9,7);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (9,8);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (9,9);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (9,10);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (9,11);
+
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (10,1);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (10,2);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (10,3);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (10,4);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (10,5);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (10,6);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (10,7);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (10,8);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (10,9);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (10,10);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (10,11);
+
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (11,1);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (11,2);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (11,3);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (11,4);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (11,5);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (11,6);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (11,7);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (11,8);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (11,9);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (11,10);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (11,11);
+
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (12,1);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (12,2);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (12,3);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (12,4);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (12,5);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (12,6);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (12,7);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (12,8);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (12,9);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (12,10);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (12,11);
+
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (13,1);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (13,2);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (13,3);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (13,4);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (13,5);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (13,6);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (13,7);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (13,8);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (13,9);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (13,10);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (13,11);
+
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (14,1);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (14,2);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (14,3);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (14,4);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (14,5);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (14,6);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (14,7);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (14,8);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (14,9);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (14,10);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (14,11);
+
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (15,1);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (15,2);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (15,3);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (15,4);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (15,5);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (15,6);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (15,7);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (15,8);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (15,9);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (15,10);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (15,11);
+
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (16,1);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (16,2);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (16,3);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (16,4);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (16,5);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (16,6);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (16,7);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (16,8);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (16,9);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (16,10);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (16,11);
+
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (17,1);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (17,2);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (17,3);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (17,4);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (17,5);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (17,6);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (17,7);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (17,8);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (17,9);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (17,10);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (17,11);
+
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (18,1);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (18,2);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (18,3);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (18,4);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (18,5);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (18,6);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (18,7);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (18,8);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (18,9);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (18,10);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (18,11);
+
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (19,1);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (19,3);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (19,4);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (19,5);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (19,6);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (19,7);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (19,8);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (19,10);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (19,11);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (19,12);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (19,13);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (19,14);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (19,15);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (19,16);
+
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (20,1);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (20,3);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (20,4);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (20,5);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (20,6);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (20,7);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (20,8);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (20,10);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (20,11);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (20,12);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (20,13);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (20,14);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (20,15);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (20,16);
+
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (21,1);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (21,3);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (21,4);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (21,5);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (21,6);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (21,7);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (21,8);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (21,10);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (21,11);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (21,12);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (21,13);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (21,14);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (21,15);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (21,16);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (21,17);
+
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (22,1);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (22,3);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (22,4);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (22,5);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (22,6);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (22,7);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (22,8);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (22,10);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (22,11);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (22,12);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (22,13);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (22,14);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (22,15);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (22,16);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (22,17);
+
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (23,1);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (23,3);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (23,4);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (23,6);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (23,7);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (23,8);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (23,10);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (23,12);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (23,13);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (23,15);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (23,16);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (23,18);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (23,19);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (23,20);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (23,24);
+
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (24,1);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (24,3);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (24,4);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (24,6);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (24,7);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (24,8);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (24,10);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (24,12);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (24,13);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (24,14);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (24,15);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (24,16);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (24,21);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (24,22);
+INSERT INTO `curso_asignatura`(`curso_id`, `asignatura_id`) VALUES (24,23);
+
+
+
+INSERT ASIGNATURAS
+
+
+
+INSERT INTO `asignaturas`(`nombre`,`color`,`icono`) VALUES ('Artes Visuales','bg-purple','fa-paint-brush');
+INSERT INTO `asignaturas`(`nombre`,`color`,`icono`) VALUES ('Ciencias Naturales','bg-green','fa-leaf');
+INSERT INTO `asignaturas`(`nombre`,`color`,`icono`) VALUES ('Educación Física y Salud','bg-yellow','fa-soccer-ball-o');
+INSERT INTO `asignaturas`(`nombre`,`color`,`icono`) VALUES ('Historia, Geografía y Ciencias Sociales','bg-orange','fa-globe');
+INSERT INTO `asignaturas`(`nombre`,`color`,`icono`) VALUES ('Tecnología','bg-aqua','fa-desktop');
+INSERT INTO `asignaturas`(`nombre`,`color`,`icono`) VALUES ('Matemática','bg-blue','fa-superscript');
+INSERT INTO `asignaturas`(`nombre`,`color`,`icono`) VALUES ('Inglés','bg-maroon','fa-language');
+INSERT INTO `asignaturas`(`nombre`,`color`,`icono`) VALUES ('Lenguaje y Comunicación','bg-red','fa-book');
+INSERT INTO `asignaturas`(`nombre`,`color`,`icono`) VALUES ('Música','bg-olive','fa-music');
+INSERT INTO `asignaturas`(`nombre`,`color`,`icono`) VALUES ('Orientación','bg-teal','fa-group');
+INSERT INTO `asignaturas`(`nombre`,`color`,`icono`) VALUES ('Religión','bg-fuchsia','fa-sun-o');
+
+INSERT INTO `asignaturas`(`nombre`,`color`,`icono`) VALUES ('PSU Lenguaje','bg-red','fa-book');
+INSERT INTO `asignaturas`(`nombre`,`color`,`icono`) VALUES ('PSU Matemática','bg-blue','fa-superscript');
+INSERT INTO `asignaturas`(`nombre`,`color`,`icono`) VALUES ('Física','bg-blue','fa-bar-chart');
+INSERT INTO `asignaturas`(`nombre`,`color`,`icono`) VALUES ('Química','bg-navy','fa-flask');
+INSERT INTO `asignaturas`(`nombre`,`color`,`icono`) VALUES ('Biología','bg-green','fa-leaf');
+INSERT INTO `asignaturas`(`nombre`,`color`,`icono`) VALUES ('Orientación Vocacional','bg-teal','fa-graduation-cap');
+
+INSERT INTO `asignaturas`(`nombre`,`color`,`icono`) VALUES ('Filosofía','bg-gray','fa-balance-scale');
+INSERT INTO `asignaturas`(`nombre`,`color`,`icono`) VALUES ('Electivo Filosofía Política','bg-gray','fa-balance-scale');
+INSERT INTO `asignaturas`(`nombre`,`color`,`icono`) VALUES ('Electivo Participación y Argumentación en Democracia','bg-red','fa-book');
+INSERT INTO `asignaturas`(`nombre`,`color`,`icono`) VALUES ('Electivo Biología Celular y Molecular','bg-green','fa-leaf');
+INSERT INTO `asignaturas`(`nombre`,`color`,`icono`) VALUES ('Electivo Límites, Derivadas e Integrales','bg-blue','fa-superscript');
+INSERT INTO `asignaturas`(`nombre`,`color`,`icono`) VALUES ('Electivo Química','bg-navy','fa-flask');
+INSERT INTO `asignaturas`(`nombre`,`color`,`icono`) VALUES ('Electivo Artes Visuales, Audiovisuales y Multimediales','bg-purple','fa-paint-brush');
+
+
+
+
+
+
+
+
+
+
+insert alumnos
+
+INSERT INTO alumnos (rut,primer_nombre,segundo_nombre,apellido_paterno,apellido_materno,correo,estado,id_curso) VALUES ("17987763-5","Liliana","Yeremi38","Olivares","Cárdenas","et@quisdiam.co.uk","Activo",7),("27536610-2","Amador","Nelly","Campos","Torres","sapien.Cras.dolor@Integersemelit.org","Activo",9),("9582563-K","Nawel","Fermín","Romero","Sandoval","Lorem.ipsum.dolor@auctornonfeugiat.co.uk","Activo",10),("7037034-4","Darko","Ariela","Bravo","García","Vivamus.non.lorem@orcilobortisaugue.co.uk","Activo",26),("28140298-6","Julian","Jonatan","Espinoza","Saavedra","Proin.eget.odio@risus.co.uk","Activo",5),("23305371-6","Liset","Jack","Vergara","Muñoz","Nullam@ullamcorper.edu","Activo",7),("29180549-3","Luana","Miguel","Vergara","Soto","convallis.dolor@loremut.edu","Activo",1),("39499335-2","Neftalí","Lenin","Ruiz","Guerrero","neque.Nullam@laoreetliberoet.com","Activo",9),("40948502-2","Edgardo","Maythe","González","Aravena","et.magnis@Duismi.org","Activo",16),("21357583-K","Giancarlos","Alain","Hernández","Aguilera","posuere.at.velit@Phasellus.co.uk","Activo",14),("45203718-1","Amapola","Alice","Molina","Yáñez","nibh@eratvolutpatNulla.co.uk","Activo",4),("33179668-9","Héctor","Mirko","Peña","Soto","non@enim.org","Activo",1),("26878171-4","Byron","Nayarett","Rojas","García","turpis.Nulla@mi.co.uk","Activo",18),("16279438-8","Boris","Jim","Rodríguez","Miranda","et.malesuada@ametdiam.net","Activo",13),("31595656-0","Amy","Darien","Jiménez","Parra","dictum.eu.eleifend@urnaNuncquis.com","Activo",15),("38682608-0","Dustin","Allen","Escobar","Pino","vel.venenatis.vel@auctorullamcorper.net","Activo",8),("16487603-9","Airon","Konstanza","Espinoza","Toro","Duis@ornarelectusjusto.co.uk","Activo",22),("36489465-1","Elio","Katrina","San Martín","Romero","urna@justoPraesentluctus.edu","Activo",21),("15969397-K","Maximilian","Francia","Alarcón","Sepúlveda","ante.dictum@ipsumcursus.ca","Activo",3),("22595445-3","Mikaela","Yeiko","Salazar","Cáceres","augue@habitantmorbi.org","Activo",23),("35863475-3","Anthonela","Polett","Toro","Flores","porttitor.eros@egestasSed.edu","Activo",20),("8284523-2","Arnaldo","César","Cáceres","Molina","lorem.ac.risus@etultrices.ca","Activo",10),("48200610-8","Julia","Yendelyn","San Martín","Navarro","vitae.posuere.at@telluseuaugue.co.uk","Activo",15),("19753030-8","Cristiano","Laura","Cáceres","Godoy","Etiam@ametrisusDonec.edu","Activo",6),("8096311-4","Robert","Aldo","Alarcón","Flores","vel.convallis.in@orcisemeget.edu","Activo",7),("43753155-2","Maritza","Matia","Alarcón","Vergara","Nunc.quis@Namac.co.uk","Activo",4),("7802199-3","Barbara","Dustin","Yáñez","Figueroa","pellentesque@idliberoDonec.org","Activo",7),("46075263-9","Israel","Davor","Herrera","Guerrero","nec@risus.org","Activo",10),("45451165-4","Karlita","Samira","Gómez","Muñoz","ante.dictum.cursus@sitametorci.edu","Activo",1),("19890009-5","Yael","Dania","Fuentes","Medina","feugiat.tellus.lorem@mattisornarelectus.net","Activo",18);
+INSERT INTO alumnos (rut,primer_nombre,segundo_nombre,apellido_paterno,apellido_materno,correo,estado,id_curso) VALUES ("28760433-5","Dennis","Maribel","Parra","Leiva","erat.eget@commodo.org","Activo",2),("35516999-5","Franko","Alexi","Sáez","Álvarez","Sed@Integermollis.co.uk","Activo",12),("21326784-1","Abraham","Jeyson","Sandoval","Olivares","quis@placerat.org","Activo",16),("28489783-8","Brian","Francesca","Orellana","Palma","nisl.elementum@tincidunt.edu","Activo",17),("39871800-3","Gloria","Dayanna","García","Cárdenas","consectetuer@dictummi.edu","Activo",14),("47941064-K","Alicia","Gino","Paredes","Molina","interdum@orciquislectus.com","Activo",12),("36191503-8","Amador","Abby","Núñez","Morales","ultricies@dapibus.net","Activo",10),("11158889-9","Gaspar","Brenda","Ramírez","Pérez","id.mollis.nec@Nunc.ca","Activo",10),("35587506-7","Bairon","Escarlet","Maldonado","Herrera","non.enim.Mauris@ac.com","Activo",5),("24115447-5","Yohans","Marcial","Cárdenas","Aguilera","a@Fuscedolor.edu","Activo",10),("44622616-9","Nathan","Giuliano","Castillo","Poblete","Vestibulum.ante@massaSuspendisseeleifend.org","Activo",9),("34311167-3","Yasmin","Lester","Hernández","Romero","Cras@tellus.edu","Activo",24),("34559819-7","Jossefa","Ostin","Figueroa","Sáez","ac.fermentum.vel@auctornonfeugiat.ca","Activo",24),("18915921-8","Ivania","Cristopher","Garrido","González","orci.lobortis@famesacturpis.com","Activo",23),("13052393-5","Catherine","Pascal","Olivares","Gallardo","Nullam@nibhlacinia.com","Activo",11),("47639467-8","Consuelo","Christopher","Fuentes","Olivares","Praesent.eu.dui@estmollisnon.edu","Activo",10),("25754150-9","Pascal","Jean","Riquelme","Lagos","congue.In@nuncac.ca","Activo",24),("38600975-9","Ulises","Mathias","Contreras","Vidal","in@turpisAliquamadipiscing.co.uk","Activo",22),("31939832-5","Geraldine","Felipe","González","Paredes","lacus.vestibulum@semperrutrum.org","Activo",14),("15391359-5","Kristian","Silvia","Cortés","Tapia","enim.sit@semut.com","Activo",16),("12725586-5","Angélica","Jefferson","Sánchez","Bravo","enim@nislelementumpurus.co.uk","Activo",25),("47511393-4","Valentín","Silvio","Carvajal","Figueroa","Donec.nibh@est.org","Activo",19),("12834936-7","Marcel","Polette","Riquelme","Hernández","ligula.Aliquam@magnaPhasellus.edu","Activo",26),("39629707-8","Samuel","Christobal","Rivera","Poblete","turpis.In.condimentum@eratSednunc.com","Activo",22),("43022479-4","Natalie","Isamar","Maldonado","Bravo","In@egestasblanditNam.com","Activo",2),("22084051-4","Ian","Nayeli","Riquelme","Alvarado","egestas.nunc.sed@nonarcu.org","Activo",22),("25810661-K","Silvio","Adam","Ortiz","Navarro","molestie.sodales.Mauris@leoVivamusnibh.co.uk","Activo",23),("5420288-1","Bernardita","Nathalie","Tapia","Pérez","Proin@ultricies.edu","Activo",5),("38016867-7","Jordi","Mark","Leiva","Contreras","molestie.sodales@congueIn.co.uk","Activo",3),("21177610-2","Beatriz","Edison","Araya","Pérez","Nunc@orciquislectus.edu","Activo",6);
+INSERT INTO alumnos (rut,primer_nombre,segundo_nombre,apellido_paterno,apellido_materno,correo,estado,id_curso) VALUES ("35034421-7","Antwan","Eric","Aravena","Cáceres","neque.venenatis@massaQuisque.co.uk","Activo",19),("43550260-1","Luis","Skarleth","Riquelme","Ortega","nec.tellus.Nunc@Utsemper.ca","Activo",23),("34973513-K","Dafnne","Stephan","Pizarro","Zúñiga","semper.pretium.neque@estarcu.ca","Activo",19),("15225495-4","Cynthia","Francia","Donoso","Cárdenas","dolor@enimnectempus.net","Activo",9),("11269557-5","Nahir","Katrina","Cárdenas","Romero","lacinia.at.iaculis@quama.edu","Activo",26),("19115288-3","Arthur","Danae","Sandoval","Jiménez","accumsan@Donectincidunt.co.uk","Activo",12),("9767739-5","Christobal","Didier","Riquelme","Hernández","Nulla.interdum.Curabitur@tortor.edu","Activo",16),("25710353-6","Elmer","Roberth","Farías","Romero","non@purusmaurisa.edu","Activo",12),("40850281-0","Angie","Melany","Ortiz","Sánchez","scelerisque.neque.sed@loremvehicula.co.uk","Activo",21),("12144610-3","Crishna","Antonela","Herrera","Pizarro","nulla.Integer.vulputate@senectuset.com","Activo",4),("30867375-8","Bladimir","Dakota","Sandoval","Gómez","natoque.penatibus@arcuacorci.edu","Activo",15),("10503647-7","Jade","Ander","Herrera","Ortiz","Nullam.suscipit.est@eunequepellentesque.ca","Activo",21),("44015756-4","Silvestre","Geanella","Peña","Soto","nisi.sem.semper@eget.ca","Activo",10),("40712836-2","Emely","Yair","Olivares","Maldonado","non.hendrerit.id@sitametmetus.net","Activo",22),("35477046-6","Esmeralda","Israel","Miranda","Sáez","nulla@rutrummagnaCras.co.uk","Activo",17),("31452439-K","Aarón","Yerko","Silva","Donoso","a.scelerisque@Donecnonjusto.net","Activo",17),("32616372-4","Damari","Santiago","Rojas","Hernández","ipsum@pellentesque.org","Activo",10),("42040927-3","Álvaro","Helena","Sanhueza","Ruiz","mattis@parturientmontes.org","Activo",10),("46556615-9","Marisol","Philippe","Castro","Parra","sit.amet@orci.ca","Activo",24),("27197547-3","Gloria","Eugenio","Contreras","Palma","mattis.Cras@eleifendegestas.edu","Activo",5),("26549279-7","Maikel","Belén","Yáñez","Gutiérrez","in@etultrices.com","Activo",10),("36126320-0","Mattia","Duvan","Parra","Molina","consequat.enim.diam@loremsemperauctor.org","Activo",1),("5646088-8","Keily","Matías","Vera","Fernández","erat@accumsaninterdumlibero.co.uk","Activo",6),("25245823-9","Darío","Samara","Valdés","Cáceres","quis.arcu.vel@eu.org","Activo",1),("36087247-5","Armin","Eitan","Paredes","Vergara","Fusce@Donecatarcu.net","Activo",12),("23755276-8","Betsabé","Cynthia","Aguilera","Tapia","amet.orci.Ut@sitamet.ca","Activo",9),("20270192-2","Damian","Ithan","Leiva","Sepúlveda","semper@sedpedeCum.co.uk","Activo",24),("38991859-8","Mariapaz","Julieta","Olivares","Flores","Nam@adipiscing.net","Activo",20),("46153673-5","Natalie","Mariela","Fernández","Muñoz","iaculis.aliquet.diam@turpisnec.co.uk","Activo",7),("23972244-K","Pamela","Branco","Gallardo","Carvajal","lectus.Nullam@aceleifendvitae.co.uk","Activo",3);
+INSERT INTO alumnos (rut,primer_nombre,segundo_nombre,apellido_paterno,apellido_materno,correo,estado,id_curso) VALUES ("35141339-5","Alonso","Valentina","Alvarado","Aguilera","amet.risus.Donec@arcuNunc.org","Activo",6),("40980792-5","Carla","Alaniz","Palma","Martínez","Nulla.interdum.Curabitur@sempercursus.org","Activo",19),("21276882-0","Maite","Yojan","Miranda","Sánchez","ante@mieleifendegestas.ca","Activo",20),("28564130-6","Rebeca","Jean","Orellana","Herrera","nascetur.ridiculus@incursuset.ca","Activo",26),("41907817-4","Sandro","Katherine","Venegas","Vega","Integer.vulputate.risus@nequeNullam.net","Activo",2),("25746466-0","Jazmín","Fernanda","San Martín","Sanhueza","tortor.Integer.aliquam@maurisrhoncusid.ca","Activo",22),("16784908-3","Rodrigo","Anabella","Orellana","Morales","ac@aliquet.net","Activo",4),("35857304-5","Estefania","Yadiel","Toro","Navarrete","velit.eu.sem@vehicula.com","Activo",13),("9248785-7","Edgar","Tamara","Rojas","Toro","sit.amet.risus@nonmassa.net","Activo",6),("45820040-8","Carla","Ivana","Espinoza","Rivera","diam.eu@Integer.org","Activo",25);
+
+
+

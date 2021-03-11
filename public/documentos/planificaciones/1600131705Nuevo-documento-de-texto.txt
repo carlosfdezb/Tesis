@@ -1,0 +1,18 @@
+TRANSITORIOS (NEET)-> se pueden dar de alta, puede cambiar de diagnostico , puede cambiar de docente pero se tiene que mantener los archivos.
+
+PERMANENTES (NEEEP)->
+
+NEE ES TRANSITORIO Y PERMANENTE
+
+AGREGAR EDAD A ASIGNARDOCENTE
+
+
+
+
+
+CARPETA PIE AGREGAR
+
+FECHA EMISION DIAGNOSTICO (CUANDO FUE DIAGNOSTICADO)
+
+
+
